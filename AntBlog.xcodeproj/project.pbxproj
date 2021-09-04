@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		237080A8155F99E44F2158A8 /* Pods_AntBlog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A5A53A15C3A8B680932A5D /* Pods_AntBlog.framework */; };
 		6E3BF70226E315AC00E28CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */; };
 		6E3BF70426E315AC00E28CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */; };
-		6E3BF70626E315AC00E28CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70526E315AC00E28CA3 /* ViewController.swift */; };
-		6E3BF70926E315AC00E28CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF70726E315AC00E28CA3 /* Main.storyboard */; };
+		6E3BF70626E315AC00E28CA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70526E315AC00E28CA3 /* HomeViewController.swift */; };
 		6E3BF70B26E315AF00E28CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */; };
 		6E3BF70E26E315AF00E28CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */; };
 		6E3BF71926E315AF00E28CA3 /* AntBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF71826E315AF00E28CA3 /* AntBlogTests.swift */; };
 		6E3BF72426E315AF00E28CA3 /* AntBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF72326E315AF00E28CA3 /* AntBlogUITests.swift */; };
+		6E3BF73326E3176500E28CA3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3BF73226E3176500E28CA3 /* StoreKit.framework */; };
+		6E3BF73A26E3206800E28CA3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF73926E3206800E28CA3 /* ProfileViewController.swift */; };
+		6E3BF73C26E3208100E28CA3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF73B26E3208100E28CA3 /* TabBarViewController.swift */; };
+		6E3BF73E26E3209700E28CA3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF73D26E3209700E28CA3 /* SignInViewController.swift */; };
+		6E3BF74026E320A000E28CA3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF73F26E320A000E28CA3 /* SignUpViewController.swift */; };
+		6E3BF74226E320AC00E28CA3 /* ViewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74126E320AC00E28CA3 /* ViewPostViewController.swift */; };
+		6E3BF74426E320B800E28CA3 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74326E320B800E28CA3 /* CreateNewPostViewController.swift */; };
+		6E3BF74626E320DA00E28CA3 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74526E320DA00E28CA3 /* IAPManager.swift */; };
+		6E3BF74826E320ED00E28CA3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74726E320ED00E28CA3 /* DatabaseManager.swift */; };
+		6E3BF74A26E320FC00E28CA3 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74926E320FC00E28CA3 /* AuthManager.swift */; };
+		6E3BF74C26E3210500E28CA3 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74B26E3210500E28CA3 /* StorageManager.swift */; };
+		6E3BF74E26E328BA00E28CA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF74D26E328BA00E28CA3 /* GoogleService-Info.plist */; };
+		6E3BF75026E3305B00E28CA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF74F26E3305B00E28CA3 /* User.swift */; };
+		6E3BF75226E3306700E28CA3 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF75126E3306700E28CA3 /* BlogPost.swift */; };
+		6EFD541926E36AC300F0EE24 /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD541826E36AC300F0EE24 /* PayWallViewController.swift */; };
+		87ABEAABF03FF7DD460CD5B3 /* Pods_AntBlogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFE186A8CC21242B085B08D /* Pods_AntBlogTests.framework */; };
+		923C5AD418DC83065EE16B52 /* Pods_AntBlog_AntBlogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278651080F97A0B6FF086700 /* Pods_AntBlog_AntBlogUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A5A53A15C3A8B680932A5D /* Pods_AntBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFE186A8CC21242B085B08D /* Pods_AntBlogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntBlogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		278651080F97A0B6FF086700 /* Pods_AntBlog_AntBlogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntBlog_AntBlogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C54184B63449F69D25D4C33 /* Pods-AntBlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntBlogTests.release.xcconfig"; path = "Target Support Files/Pods-AntBlogTests/Pods-AntBlogTests.release.xcconfig"; sourceTree = "<group>"; };
+		4ED7FC1C7D532D8E487B9019 /* Pods-AntBlog-AntBlogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntBlog-AntBlogUITests.release.xcconfig"; path = "Target Support Files/Pods-AntBlog-AntBlogUITests/Pods-AntBlog-AntBlogUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6E3BF6FE26E315AC00E28CA3 /* AntBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E3BF70526E315AC00E28CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E3BF70826E315AC00E28CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3BF70526E315AC00E28CA3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3BF70D26E315AF00E28CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3BF70F26E315AF00E28CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,25 @@
 		6E3BF71F26E315AF00E28CA3 /* AntBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3BF72326E315AF00E28CA3 /* AntBlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntBlogUITests.swift; sourceTree = "<group>"; };
 		6E3BF72526E315AF00E28CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3BF73226E3176500E28CA3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6E3BF73926E3206800E28CA3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6E3BF73B26E3208100E28CA3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6E3BF73D26E3209700E28CA3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6E3BF73F26E320A000E28CA3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E3BF74126E320AC00E28CA3 /* ViewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostViewController.swift; sourceTree = "<group>"; };
+		6E3BF74326E320B800E28CA3 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
+		6E3BF74526E320DA00E28CA3 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		6E3BF74726E320ED00E28CA3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		6E3BF74926E320FC00E28CA3 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		6E3BF74B26E3210500E28CA3 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		6E3BF74D26E328BA00E28CA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E3BF74F26E3305B00E28CA3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6E3BF75126E3306700E28CA3 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		6EFD541826E36AC300F0EE24 /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
+		A397C7EB86833044AD0DD5DC /* Pods-AntBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntBlog.release.xcconfig"; path = "Target Support Files/Pods-AntBlog/Pods-AntBlog.release.xcconfig"; sourceTree = "<group>"; };
+		CFFBD67805F40B3B66A146C3 /* Pods-AntBlogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntBlogTests.debug.xcconfig"; path = "Target Support Files/Pods-AntBlogTests/Pods-AntBlogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E60859816AE06B9A0BEDAC21 /* Pods-AntBlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntBlog.debug.xcconfig"; path = "Target Support Files/Pods-AntBlog/Pods-AntBlog.debug.xcconfig"; sourceTree = "<group>"; };
+		E61B88AA0E13B52E674538EB /* Pods-AntBlog-AntBlogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntBlog-AntBlogUITests.debug.xcconfig"; path = "Target Support Files/Pods-AntBlog-AntBlogUITests/Pods-AntBlog-AntBlogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3BF73326E3176500E28CA3 /* StoreKit.framework in Frameworks */,
+				237080A8155F99E44F2158A8 /* Pods_AntBlog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ABEAABF03FF7DD460CD5B3 /* Pods_AntBlogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923C5AD418DC83065EE16B52 /* Pods_AntBlog_AntBlogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +127,8 @@
 				6E3BF71726E315AF00E28CA3 /* AntBlogTests */,
 				6E3BF72226E315AF00E28CA3 /* AntBlogUITests */,
 				6E3BF6FF26E315AC00E28CA3 /* Products */,
+				6E3BF73126E3176500E28CA3 /* Frameworks */,
+				C488A5DE9ECF59087175C784 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +145,11 @@
 		6E3BF70026E315AC00E28CA3 /* AntBlog */ = {
 			isa = PBXGroup;
 			children = (
-				6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */,
-				6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */,
-				6E3BF70526E315AC00E28CA3 /* ViewController.swift */,
-				6E3BF70726E315AC00E28CA3 /* Main.storyboard */,
-				6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */,
-				6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */,
+				6E3BF73826E31FDC00E28CA3 /* Managers */,
+				6E3BF73726E31FD800E28CA3 /* Others */,
+				6E3BF73626E31FCF00E28CA3 /* Controllers */,
+				6E3BF73526E31FCA00E28CA3 /* Views */,
+				6E3BF73426E31FC400E28CA3 /* Models */,
 				6E3BF70F26E315AF00E28CA3 /* Info.plist */,
 			);
 			path = AntBlog;
@@ -128,6 +173,84 @@
 			path = AntBlogUITests;
 			sourceTree = "<group>";
 		};
+		6E3BF73126E3176500E28CA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF73226E3176500E28CA3 /* StoreKit.framework */,
+				05A5A53A15C3A8B680932A5D /* Pods_AntBlog.framework */,
+				278651080F97A0B6FF086700 /* Pods_AntBlog_AntBlogUITests.framework */,
+				1BFE186A8CC21242B085B08D /* Pods_AntBlogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E3BF73426E31FC400E28CA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF74F26E3305B00E28CA3 /* User.swift */,
+				6E3BF75126E3306700E28CA3 /* BlogPost.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E3BF73526E31FCA00E28CA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E3BF73626E31FCF00E28CA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF70526E315AC00E28CA3 /* HomeViewController.swift */,
+				6E3BF73926E3206800E28CA3 /* ProfileViewController.swift */,
+				6E3BF73B26E3208100E28CA3 /* TabBarViewController.swift */,
+				6E3BF73D26E3209700E28CA3 /* SignInViewController.swift */,
+				6E3BF73F26E320A000E28CA3 /* SignUpViewController.swift */,
+				6E3BF74126E320AC00E28CA3 /* ViewPostViewController.swift */,
+				6E3BF74326E320B800E28CA3 /* CreateNewPostViewController.swift */,
+				6EFD541826E36AC300F0EE24 /* PayWallViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6E3BF73726E31FD800E28CA3 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */,
+				6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */,
+				6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */,
+				6E3BF74D26E328BA00E28CA3 /* GoogleService-Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6E3BF73826E31FDC00E28CA3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF74526E320DA00E28CA3 /* IAPManager.swift */,
+				6E3BF74726E320ED00E28CA3 /* DatabaseManager.swift */,
+				6E3BF74926E320FC00E28CA3 /* AuthManager.swift */,
+				6E3BF74B26E3210500E28CA3 /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C488A5DE9ECF59087175C784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60859816AE06B9A0BEDAC21 /* Pods-AntBlog.debug.xcconfig */,
+				A397C7EB86833044AD0DD5DC /* Pods-AntBlog.release.xcconfig */,
+				E61B88AA0E13B52E674538EB /* Pods-AntBlog-AntBlogUITests.debug.xcconfig */,
+				4ED7FC1C7D532D8E487B9019 /* Pods-AntBlog-AntBlogUITests.release.xcconfig */,
+				CFFBD67805F40B3B66A146C3 /* Pods-AntBlogTests.debug.xcconfig */,
+				3C54184B63449F69D25D4C33 /* Pods-AntBlogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3BF72826E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlog" */;
 			buildPhases = (
+				60B5485A9354B284E5049587 /* [CP] Check Pods Manifest.lock */,
 				6E3BF6FA26E315AC00E28CA3 /* Sources */,
 				6E3BF6FB26E315AC00E28CA3 /* Frameworks */,
 				6E3BF6FC26E315AC00E28CA3 /* Resources */,
+				19E33B497BC2DF1F5388E2B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3BF72B26E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlogTests" */;
 			buildPhases = (
+				5B1060196B56C5FA9BA902E9 /* [CP] Check Pods Manifest.lock */,
 				6E3BF71026E315AF00E28CA3 /* Sources */,
 				6E3BF71126E315AF00E28CA3 /* Frameworks */,
 				6E3BF71226E315AF00E28CA3 /* Resources */,
@@ -170,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3BF72E26E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlogUITests" */;
 			buildPhases = (
+				18D5C1BBEC115917FA863413 /* [CP] Check Pods Manifest.lock */,
 				6E3BF71B26E315AF00E28CA3 /* Sources */,
 				6E3BF71C26E315AF00E28CA3 /* Frameworks */,
 				6E3BF71D26E315AF00E28CA3 /* Resources */,
+				2E0B3723AE01308079A9FE6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +362,7 @@
 			files = (
 				6E3BF70E26E315AF00E28CA3 /* LaunchScreen.storyboard in Resources */,
 				6E3BF70B26E315AF00E28CA3 /* Assets.xcassets in Resources */,
-				6E3BF70926E315AC00E28CA3 /* Main.storyboard in Resources */,
+				6E3BF74E26E328BA00E28CA3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +382,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18D5C1BBEC115917FA863413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntBlog-AntBlogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19E33B497BC2DF1F5388E2B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntBlog/Pods-AntBlog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntBlog/Pods-AntBlog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntBlog/Pods-AntBlog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E0B3723AE01308079A9FE6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntBlog-AntBlogUITests/Pods-AntBlog-AntBlogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntBlog-AntBlogUITests/Pods-AntBlog-AntBlogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntBlog-AntBlogUITests/Pods-AntBlog-AntBlogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B1060196B56C5FA9BA902E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntBlogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B5485A9354B284E5049587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntBlog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E3BF6FA26E315AC00E28CA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3BF70626E315AC00E28CA3 /* ViewController.swift in Sources */,
+				6E3BF75226E3306700E28CA3 /* BlogPost.swift in Sources */,
+				6E3BF70626E315AC00E28CA3 /* HomeViewController.swift in Sources */,
+				6E3BF74A26E320FC00E28CA3 /* AuthManager.swift in Sources */,
+				6E3BF74826E320ED00E28CA3 /* DatabaseManager.swift in Sources */,
+				6E3BF74026E320A000E28CA3 /* SignUpViewController.swift in Sources */,
 				6E3BF70226E315AC00E28CA3 /* AppDelegate.swift in Sources */,
+				6E3BF73E26E3209700E28CA3 /* SignInViewController.swift in Sources */,
+				6E3BF75026E3305B00E28CA3 /* User.swift in Sources */,
+				6E3BF73A26E3206800E28CA3 /* ProfileViewController.swift in Sources */,
+				6E3BF74426E320B800E28CA3 /* CreateNewPostViewController.swift in Sources */,
+				6E3BF74626E320DA00E28CA3 /* IAPManager.swift in Sources */,
+				6E3BF73C26E3208100E28CA3 /* TabBarViewController.swift in Sources */,
 				6E3BF70426E315AC00E28CA3 /* SceneDelegate.swift in Sources */,
+				6E3BF74226E320AC00E28CA3 /* ViewPostViewController.swift in Sources */,
+				6E3BF74C26E3210500E28CA3 /* StorageManager.swift in Sources */,
+				6EFD541926E36AC300F0EE24 /* PayWallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +541,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E3BF70726E315AC00E28CA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3BF70826E315AC00E28CA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +668,7 @@
 		};
 		6E3BF72926E315AF00E28CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60859816AE06B9A0BEDAC21 /* Pods-AntBlog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,12 +680,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6E3BF72A26E315AF00E28CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A397C7EB86833044AD0DD5DC /* Pods-AntBlog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +698,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		6E3BF72C26E315AF00E28CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFBD67805F40B3B66A146C3 /* Pods-AntBlogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +726,7 @@
 		};
 		6E3BF72D26E315AF00E28CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C54184B63449F69D25D4C33 /* Pods-AntBlogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +748,7 @@
 		};
 		6E3BF72F26E315AF00E28CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61B88AA0E13B52E674538EB /* Pods-AntBlog-AntBlogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +768,7 @@
 		};
 		6E3BF73026E315AF00E28CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED7FC1C7D532D8E487B9019 /* Pods-AntBlog-AntBlogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
