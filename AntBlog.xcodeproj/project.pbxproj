@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3BF70226E315AC00E28CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */; };
+		6E3BF70426E315AC00E28CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */; };
+		6E3BF70626E315AC00E28CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF70526E315AC00E28CA3 /* ViewController.swift */; };
+		6E3BF70926E315AC00E28CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF70726E315AC00E28CA3 /* Main.storyboard */; };
+		6E3BF70B26E315AF00E28CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */; };
+		6E3BF70E26E315AF00E28CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */; };
+		6E3BF71926E315AF00E28CA3 /* AntBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF71826E315AF00E28CA3 /* AntBlogTests.swift */; };
+		6E3BF72426E315AF00E28CA3 /* AntBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3BF72326E315AF00E28CA3 /* AntBlogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3BF71526E315AF00E28CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3BF6F626E315AC00E28CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3BF6FD26E315AC00E28CA3;
+			remoteInfo = AntBlog;
+		};
+		6E3BF72026E315AF00E28CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3BF6F626E315AC00E28CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3BF6FD26E315AC00E28CA3;
+			remoteInfo = AntBlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E3BF6FE26E315AC00E28CA3 /* AntBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E3BF70526E315AC00E28CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E3BF70826E315AC00E28CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3BF70D26E315AF00E28CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3BF70F26E315AF00E28CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3BF71426E315AF00E28CA3 /* AntBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3BF71826E315AF00E28CA3 /* AntBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntBlogTests.swift; sourceTree = "<group>"; };
+		6E3BF71A26E315AF00E28CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3BF71F26E315AF00E28CA3 /* AntBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3BF72326E315AF00E28CA3 /* AntBlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntBlogUITests.swift; sourceTree = "<group>"; };
+		6E3BF72526E315AF00E28CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3BF6FB26E315AC00E28CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3BF71126E315AF00E28CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3BF71C26E315AF00E28CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E3BF6F526E315AC00E28CA3 = {
+			isa = PBXGroup;
+			children = (
+				6E3BF70026E315AC00E28CA3 /* AntBlog */,
+				6E3BF71726E315AF00E28CA3 /* AntBlogTests */,
+				6E3BF72226E315AF00E28CA3 /* AntBlogUITests */,
+				6E3BF6FF26E315AC00E28CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3BF6FF26E315AC00E28CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF6FE26E315AC00E28CA3 /* AntBlog.app */,
+				6E3BF71426E315AF00E28CA3 /* AntBlogTests.xctest */,
+				6E3BF71F26E315AF00E28CA3 /* AntBlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3BF70026E315AC00E28CA3 /* AntBlog */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF70126E315AC00E28CA3 /* AppDelegate.swift */,
+				6E3BF70326E315AC00E28CA3 /* SceneDelegate.swift */,
+				6E3BF70526E315AC00E28CA3 /* ViewController.swift */,
+				6E3BF70726E315AC00E28CA3 /* Main.storyboard */,
+				6E3BF70A26E315AF00E28CA3 /* Assets.xcassets */,
+				6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */,
+				6E3BF70F26E315AF00E28CA3 /* Info.plist */,
+			);
+			path = AntBlog;
+			sourceTree = "<group>";
+		};
+		6E3BF71726E315AF00E28CA3 /* AntBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF71826E315AF00E28CA3 /* AntBlogTests.swift */,
+				6E3BF71A26E315AF00E28CA3 /* Info.plist */,
+			);
+			path = AntBlogTests;
+			sourceTree = "<group>";
+		};
+		6E3BF72226E315AF00E28CA3 /* AntBlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3BF72326E315AF00E28CA3 /* AntBlogUITests.swift */,
+				6E3BF72526E315AF00E28CA3 /* Info.plist */,
+			);
+			path = AntBlogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3BF6FD26E315AC00E28CA3 /* AntBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3BF72826E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlog" */;
+			buildPhases = (
+				6E3BF6FA26E315AC00E28CA3 /* Sources */,
+				6E3BF6FB26E315AC00E28CA3 /* Frameworks */,
+				6E3BF6FC26E315AC00E28CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntBlog;
+			productName = AntBlog;
+			productReference = 6E3BF6FE26E315AC00E28CA3 /* AntBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3BF71326E315AF00E28CA3 /* AntBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3BF72B26E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlogTests" */;
+			buildPhases = (
+				6E3BF71026E315AF00E28CA3 /* Sources */,
+				6E3BF71126E315AF00E28CA3 /* Frameworks */,
+				6E3BF71226E315AF00E28CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3BF71626E315AF00E28CA3 /* PBXTargetDependency */,
+			);
+			name = AntBlogTests;
+			productName = AntBlogTests;
+			productReference = 6E3BF71426E315AF00E28CA3 /* AntBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E3BF71E26E315AF00E28CA3 /* AntBlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3BF72E26E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlogUITests" */;
+			buildPhases = (
+				6E3BF71B26E315AF00E28CA3 /* Sources */,
+				6E3BF71C26E315AF00E28CA3 /* Frameworks */,
+				6E3BF71D26E315AF00E28CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3BF72126E315AF00E28CA3 /* PBXTargetDependency */,
+			);
+			name = AntBlogUITests;
+			productName = AntBlogUITests;
+			productReference = 6E3BF71F26E315AF00E28CA3 /* AntBlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3BF6F626E315AC00E28CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Hevin Jant";
+				TargetAttributes = {
+					6E3BF6FD26E315AC00E28CA3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6E3BF71326E315AF00E28CA3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6E3BF6FD26E315AC00E28CA3;
+					};
+					6E3BF71E26E315AF00E28CA3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6E3BF6FD26E315AC00E28CA3;
+					};
+				};
+			};
+			buildConfigurationList = 6E3BF6F926E315AC00E28CA3 /* Build configuration list for PBXProject "AntBlog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3BF6F526E315AC00E28CA3;
+			productRefGroup = 6E3BF6FF26E315AC00E28CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3BF6FD26E315AC00E28CA3 /* AntBlog */,
+				6E3BF71326E315AF00E28CA3 /* AntBlogTests */,
+				6E3BF71E26E315AF00E28CA3 /* AntBlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3BF6FC26E315AC00E28CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3BF70E26E315AF00E28CA3 /* LaunchScreen.storyboard in Resources */,
+				6E3BF70B26E315AF00E28CA3 /* Assets.xcassets in Resources */,
+				6E3BF70926E315AC00E28CA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3BF71226E315AF00E28CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3BF71D26E315AF00E28CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3BF6FA26E315AC00E28CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3BF70626E315AC00E28CA3 /* ViewController.swift in Sources */,
+				6E3BF70226E315AC00E28CA3 /* AppDelegate.swift in Sources */,
+				6E3BF70426E315AC00E28CA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3BF71026E315AF00E28CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3BF71926E315AF00E28CA3 /* AntBlogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3BF71B26E315AF00E28CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3BF72426E315AF00E28CA3 /* AntBlogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3BF71626E315AF00E28CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3BF6FD26E315AC00E28CA3 /* AntBlog */;
+			targetProxy = 6E3BF71526E315AF00E28CA3 /* PBXContainerItemProxy */;
+		};
+		6E3BF72126E315AF00E28CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3BF6FD26E315AC00E28CA3 /* AntBlog */;
+			targetProxy = 6E3BF72026E315AF00E28CA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E3BF70726E315AC00E28CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3BF70826E315AC00E28CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3BF70C26E315AF00E28CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3BF70D26E315AF00E28CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3BF72626E315AF00E28CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E3BF72726E315AF00E28CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3BF72926E315AF00E28CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntBlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3BF72A26E315AF00E28CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntBlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E3BF72C26E315AF00E28CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntBlogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntBlog.app/AntBlog";
+			};
+			name = Debug;
+		};
+		6E3BF72D26E315AF00E28CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntBlogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntBlog.app/AntBlog";
+			};
+			name = Release;
+		};
+		6E3BF72F26E315AF00E28CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntBlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AntBlog;
+			};
+			name = Debug;
+		};
+		6E3BF73026E315AF00E28CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AntBlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.AntBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AntBlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3BF6F926E315AC00E28CA3 /* Build configuration list for PBXProject "AntBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3BF72626E315AF00E28CA3 /* Debug */,
+				6E3BF72726E315AF00E28CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3BF72826E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3BF72926E315AF00E28CA3 /* Debug */,
+				6E3BF72A26E315AF00E28CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3BF72B26E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3BF72C26E315AF00E28CA3 /* Debug */,
+				6E3BF72D26E315AF00E28CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3BF72E26E315AF00E28CA3 /* Build configuration list for PBXNativeTarget "AntBlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3BF72F26E315AF00E28CA3 /* Debug */,
+				6E3BF73026E315AF00E28CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3BF6F626E315AC00E28CA3 /* Project object */;
+}
