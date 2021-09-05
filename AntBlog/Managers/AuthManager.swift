@@ -32,6 +32,7 @@ final class AuthManager {
         auth.createUser(withEmail: email, password: password, completion: { result, error in
             guard result != nil, error == nil else {
                 completionHandler(false)
+                print("Error Signing up: \(error)")
                 return
             }
             completionHandler(true)

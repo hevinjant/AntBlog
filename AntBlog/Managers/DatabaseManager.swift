@@ -31,6 +31,13 @@ final class DatabaseManager {
     }
     
     public func insert(user: User, completion: @escaping (Bool) -> Void) {
-        
+        let documentId = user.email.replacingOccurrences(of: ".", with: "_").replacingOccurrences(of: "@", with: "_")
+        let data = [
+            "email": user.email,
+            "name": user.name
+        ]
+        database.collection("users").document(documentId).setData(data, completion: { error in
+            completion(error == nil)
+        })
     }
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import Purchases
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FirebaseApp.configure()
+        
+        // For In-App Purchase
+//        Purchases.configure(withAPIKey: "someAPIkey")
+//        IAPManager.shared.getSubscriptionStatus(completion: nil)
         
         return true
     }
